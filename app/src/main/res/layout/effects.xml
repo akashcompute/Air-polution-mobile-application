@@ -1,0 +1,262 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Effects"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Air pollution has harmful effects on natural vegetation and human health such as respiratory illnesses. Acidic precipitation is highly fatal for aquatic flora and fauna, monuments, and also for natural vegetation.
+\n\nIn 2012, air pollution caused premature deaths on average of 1 year in Europe, and was a significant risk factor for a number of pollution-related diseases, including respiratory infections, heart disease, COPD, stroke and lung cancer. The health effects caused by air pollution may include difficulty in breathing, wheezing, coughing, asthma and worsening of existing respiratory and cardiac conditions. These effects can result in increased medication use, increased doctor or emergency department visits, more hospital admissions and premature death. \n\nThe human health effects of poor air quality are far reaching, but principally affect the body's respiratory system and the cardiovascular system. Individual reactions to air pollutants depend on the type of pollutant a person is exposed to, the degree of exposure, and the individual's health status and genetics. The most common sources of air pollution include particulates, ozone, nitrogen dioxide, and sulphur dioxide. Children aged less than five years that live in developing countries are the most vulnerable population in terms of total deaths attributable to indoor and outdoor air pollution."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How air pollution harms health"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Where pollutants go in the body and what they do"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="11dp"
+                    android:src="@drawable/healtheffects" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="When air pollutants enter the body, they can have effects on various different organs and systems, not just the respiratory system.
+\n\n
+This includes:
+\n
+\n   • the eyes, nose and throat
+\n   • the lungs and respiratory system
+\n   • the heart – heart and blood vessel diseases, including strokes and hardening of the arteries, are one of the main effects of air pollution
+\n
+\nEmerging evidence suggests that air pollution may also affect the brain and is possibly linked to dementia and cognitive decline. There is also emerging evidence associating air pollution with early life effects such as low birth weight."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Impact of air pollution across a person’s lifetime"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Air pollution can affect everyone, and air in all areas of the UK contains some proportion of man-made air pollutants. Exposure to air pollution has various different health effects, which come about at every stage of life, from a foetus’ first weeks in the womb all the way through to old age. The health effects of air pollution are complex, and range in severity of impact. In some cases, damage can be gradual and may not become apparent for many years.
+\n\n
+The 3 main conditions associated with air pollution are respiratory conditions (such as asthma), cardiovascular disease (CVD), and lung cancer, and there is emerging evidence for associations with dementia, low birth weight and Type 2 diabetes. COMEAP has highlighted that exposure to air pollution contributes to many thousands of deaths in the UK, through increasing the risk of CVD, respiratory disease and cancers.
+\n\n
+There is therefore a strong case for action to tackle air pollution, and action to improve air quality and health is a priority area for PHE.
+\n\n
+The following sections outline the various health effects and conditions that come about at different stages of life. The Royal College of Physicians’ report, ‘Every breath we take: The lifelong impact of air pollution’, presents the findings of multiple international studies regarding each of these health effects."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="11dp"
+                    android:src="@drawable/health_matters_airpollution" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.1 . Early childhood development: pregnancy, the developing foetus and infancy"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Pregnancy and early childhood are critical times for the formation and maturation of body systems, and the time during which the most rapid changes take place. Factors that adversely affect human development, including air pollution, can have both immediate and long-lasting effects on a person’s health, and some health impacts may only emerge later in life.
+\n\n
+As well as potential effects on foetal growth, air pollution exposure is associated with low birth weight and premature birth."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.2 . Lung function development and decline"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Exposure to air pollution in early life can have a long-lasting effect on lung function. There is evidence that the process of normal lung function growth in children is suppressed by long-term exposure to air pollution. Throughout childhood, there is a natural development of lung function and maximising this is important, as low lung function leads to less reserve if lung disease develops.
+\n
+\nLung function in adulthood slowly declines with age, and there is emerging evidence that air pollution and living near a busy road accelerate this decline, for both adults and older people. Minimising this is important to maximise reserve, especially if lung disease develops in later life."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.3 . Asthma"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Asthma, a long-term inflammatory condition of the conducting airways of the lungs, leads to cough, wheezing, chest tightness, and shortness of breath. Asthma symptoms in those who have the condition can be exacerbated by various stressors, including respiratory viral infection, allergen exposure, and episodes of elevated air pollution.
+\n
+\nThere is increasing evidence of air pollution having a potential role in causing asthma, especially in people who live near busy roads, as well as being a trigger that can make an asthmatic’s symptoms worse."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.4 . Cardiovascular disease"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="There is strong evidence for the effects of both short and long-term exposures to air pollution on CVD in adults. Air pollution can both contribute to the development of CVD and exacerbate heart conditions that already exist, with the strongest associations having been observed for PM. The COMEAP report: The Effects of Long-Term Exposure to Ambient Air Pollution on Cardiovascular Morbidity: Mechanistic Evidence, details the mechanisms of effect of air pollutants as they impact on cardiovascular morbidity.
+\n\n
+The risk of heart failure, myocardial infarction (heart attacks), arrhythmias (abnormal rhythms of the heart) and stroke is increased by both short and long-term exposure to air pollution in susceptible individuals. This includes older people and individuals with pre-existing cardiovascular and respiratory conditions. The strongest associations have been observed for fine PM, which is associated with both cardiovascular morbidity and a reduction in life expectancy as a result of increased death from CVD (and respiratory disease and lung cancer).
+\n\n
+Despite the robust evidence for adults, it remains unclear whether exposure to air pollution during childhood influences CVD development in later life. However, it has been found that in children, there are changes in biomarkers of cardiovascular function, such as blood pressure and pulmonary arterial pressure, after exposure to air pollution."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2.5 . Cancer"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="There is strong evidence that outdoor air pollution is linked to lung cancer, and the IARC has classified outdoor air pollution and PM from outdoor air pollution as carcinogenic to humans.
+\n\n
+Despite the strong evidence for adults, there is weaker evidence related to effects on children, with the World Health Organization (WHO) reporting in 2005 that there was ‘insufficient evidence for ambient air pollution and childhood cancer’. This could be in part due to lung cancer being rare in children. However, as it is believed that lung cancer can take many years to develop following exposure, some research suggests that exposure in childhood could contribute to the development of cancers in later life."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Air pollution and health inequalities"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Although air pollution can be harmful to everyone, some people are more affected because they live in a polluted area, are exposed to higher levels of air pollution in their day-to-day lives, or are more susceptible to health problems caused by air pollution. The most vulnerable face all of these disadvantages.
+\n\n
+Groups that are more affected by air pollution include:
+
+\n   • older people
+\n   • children
+\n   • individuals with existing CVD or respiratory disease
+\n   • pregnant women
+\n   • communities in areas of higher pollution, such as close to busy roads
+\n   • low-income communities
+"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="11dp"
+                    android:src="@drawable/point3effect" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3.1 . Low-income communities"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="There is clear evidence that people with a low income are affected by air pollution in a number of different ways.
+\n\n
+This is because they are more likely to:
+\n
+\n  •  have existing medical conditions
+\n  •  live in areas with poorer outdoor and indoor environments, including the quality of air (for example, near to industry or busy roads)
+\n  •  have less access to jobs, healthy food, decent housing and green spaces, which all contribute to poorer health
+
+The disadvantages that come about as a result of poor income add up, putting deprived populations who are more likely to be in poor health at greater risk from air pollution and its adverse health impacts. These inequalities can also affect people throughout their lives, from the prenatal stage through to old age, particularly as deprived communities often have limited opportunities to improve their environment."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

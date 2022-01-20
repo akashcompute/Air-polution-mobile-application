@@ -1,0 +1,128 @@
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"/>
+	</android.support.design.widget.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#000000"
+			android:padding="8dp">
+
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#FFFFFF"
+				android:orientation="vertical"
+				android:padding="8dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="Introduction"
+					android:textColor="@color/colorAccent"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Being sick is pretty lousy, isn't it? If you know someone who has a cold, you tend to steer clear of them because you don't want to catch their germs. Every time that person coughs or sneezes, their germs get put into the air and are then free to travel to the next person. Can you imagine trying to contain something like that in the air? It would be pretty difficult because, not only are the germs invisible, but they expand outward as they enter the air.
+						\n\nWe don't think of germs as air pollution, but it really is the same idea. Air pollutants are gases and particles in the atmosphere that harm organisms and affect climate. Air pollution, then, is the release of these particles and gases into the air. For the previous example, the germs would be the pollutants, but the air wouldn't be polluted until those germs are sneezed out. "
+					android:textColor="#000000"
+					android:textSize="12sp" />
+
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:src="@drawable/air_pollution" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Every day, every moment, we breathe polluted air and may become a victim of air pollution. It is estimated that an average adult exchanges 15 kg of air a day, in comparison to about 1.5 kg of the food consumed and 2.5 kg of water intake. It is obvious that the quantum of pollutants that enter our body through respiration would be manifold in comparison to those taken in through polluted water or contaminated food.\n\nAir pollution is one of the most widespread forms of pollution all over the world. Wind is the main agent of air pollution. It gathers and moves pollutants from one area to another, sometimes reducing the concentration of pollutants in one location, while increasing it in another."
+					android:textColor="#000000"
+					android:textSize="12sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textColor="#000000"
+					android:text="Air Pollution is typically separated into two categories: outdoor air pollution and indoor air pollution."
+					android:textSize="12sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="(i) Outdoor air pollution :"
+					android:textColor="@color/colorAccent"
+					android:textSize="10sp"
+					android:textStyle="bold" />
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textColor="#000000"
+					android:text="Outdoor air pollution involves exposures that take place outside of the built environment. Examples include:
+\n
+\n    • Fine particles produced by the burning of fossil fuels (i.e. the coal and petroleum used in energy production)
+\n    • Noxious gases (sulfur dioxide, nitrogen oxides, carbon monoxide, chemical vapors, etc.)
+\n    • Ground-level ozone (a reactive form of oxygen and a primary component of urban smog)
+\n    • Tobacco Smoke
+"
+					android:textSize="12sp" />
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="(ii) Indoor air pollution :"
+					android:textColor="@color/colorAccent"
+					android:textSize="10sp"
+					android:textStyle="bold" />
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textColor="#000000"
+					android:text="Indoor air pollution involves exposures to particulates, carbon oxides, and other pollutants carried by indoor air or dust. Examples include:
+\n
+\n    • Gases (carbon monoxide, radon, etc.)
+\n    • Household products and chemicals
+\n    • Building materials (asbestos, formaldehyde, lead, etc.)
+\n    • Outdoor indoor allergens (cockroach and mouse dropping, etc.)
+\n    • Tobacco smoke
+\n    • Mold and pollen
+"	android:textSize="12sp" />
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:textColor="#000000"
+					android:text="In some instances, outdoor air pollution can make its way indoors by way of open windows, doors, ventilation, etc."
+					android:textSize="12sp" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

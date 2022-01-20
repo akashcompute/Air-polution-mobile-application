@@ -1,0 +1,57 @@
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"/>
+	</android.support.design.widget.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#000000"
+			android:padding="8dp">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#FFFFFF"
+				android:orientation="vertical"
+				android:padding="8dp">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="How is air pollution linked to climate change?"
+					android:textColor="@color/colorAccent"
+					android:textStyle="bold" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="While climate change is a global process, it has very local impacts that can profoundly affect communities, not the least of which is air pollution.
+\n\n
+Increasing temperatures are directly linked to poor air quality which, in turn, can affect the heart and exacerbate cardiovascular disease.  Examples of this may include a rise in pollen, due to increased plant growth, or a rise in molds, due to severe storms — both of which can worsen allergies and other lung diseases, such as asthma.
+\n\n
+Scientists say an increasing rise in ozone levels are also a concern."
+					android:textColor="#000000"
+					android:textSize="12sp" />
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

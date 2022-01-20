@@ -1,0 +1,135 @@
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"/>
+	</android.support.design.widget.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#000000"
+			android:padding="8dp">
+
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#FFFFFF"
+				android:orientation="vertical"
+				android:padding="8dp">
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="❝Don't Let Our Future Go Up In Smoke.❞"
+					android:gravity="center"
+					android:fontFamily="cursive"
+					android:textSize="30sp"
+					android:textStyle="bold" />
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="220dp"
+					android:layout_marginRight="11dp"
+					android:src="@drawable/effiletower" />
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="Air Pollution Control"
+					android:textColor="@color/colorAccent"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Air pollution control is an onerous task as there are large number of pollutants involved in air pollution. Some of these are even difficult to detect. However, there can be some basic approaches to control air pollution. They are as follows."
+					android:textColor="#000000"
+					android:textSize="12sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="(i) Preventive Approach"
+					android:textSize="10sp"
+					android:textColor="@color/colorAccent"
+					android:textStyle="bold" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="It is well said that prevention is better than cure. We can prevent pollutants of air from being produced by various ways. For instance, by changing raw materials used in industry or the ingredient of fuel from conventional to non-conventional sources of energy; by maintenance of vehicles and roads and efficient transport system; by reduction in garbage burning and shifting cultivation areas; afforestation, etc."
+					android:textColor="#000000"
+					android:textSize="12sp" />
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="(ii) Dispersal Approach"
+					android:textColor="@color/colorAccent"
+					android:textSize="10sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="We can prevent air pollution by raising the heights of smokestacks in industries so as to release the pollutants high into the atmosphere."
+					android:textColor="#000000"
+					android:textSize="12sp" />
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="(iii) Collection Approach"
+					android:textColor="@color/colorAccent"
+					android:textSize="10sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="Air pollution can be controlled by designing the equipment and machinery to trap pollutants before they escape into the atmosphere. To meet the standards, automobile engines have been re-designed and new cars have been equipped with devices such as the catalytic converter, which changes the pollutants into harmless substances. Because of these new devices, air pollution from car exhaust has also been reduced."
+					android:textColor="#000000"
+					android:textSize="12sp" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="(iii) Legislation Approach"
+					android:textColor="@color/colorAccent"
+					android:textSize="10sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="There have been many initiatives in different countries for making laws, setting standards and norms to check air pollution and ensure quality air. All the highly industrialized countries of the world have certain legislations to prevent and control air pollution. As pollutants of air are carried by the wind from one country to another for thousands of miles, there should be global initiatives agreed upon by all countries to save the earth from the menace of air pollution."
+					android:textColor="#000000"
+					android:textSize="12sp" />
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="220dp"
+					android:layout_marginRight="11dp"
+					android:src="@drawable/quote" />
+
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

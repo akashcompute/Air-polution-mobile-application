@@ -1,0 +1,365 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:id="@+id/vscroll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pollutants"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="An air pollutant is a material in the air that can have adverse effects on humans and the ecosystem. The substance can be solid particles, liquid droplets, or gases. A pollutant can be of natural origin or man-made.
+					\nPollutants are classified as primary or secondary."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(i) Primary Pollutants  :"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Primary pollutants are usually produced by processes such as ash from a volcanic eruption. Other examples include carbon monoxide gas from motor vehicle exhausts or sulphur dioxide released from factories."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(i) Secondary Pollutants  :"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Secondary pollutants are not emitted directly. Rather, they form in the air when primary pollutants react or interact. Ground level ozone is a prominent example of secondary pollutants. "
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="• Some pollutants may be both primary and secondary: they are both emitted directly and formed from other primary pollutants."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="• The main pollutants of air are carbon dioxide (CO2 ), carbonic acid (H 2SO2), water (H2O), nitric acid (HNO3O ), and sulphuric acid (H2SO4 )."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="Major air pollutants"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(i) Criteria pollutants"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Clean, dry air consists primarily of nitrogen and oxygen—78 percent and 21 percent respectively, by volume. The remaining 1 percent is a mixture of other gases, mostly argon (0.9 percent), along with trace (very small) amounts of carbon dioxide, methane, hydrogen, helium, and more. Water vapour is also a normal, though quite variable, component of the atmosphere, normally ranging from 0.01 to 4 percent by volume; under very humid conditions the moisture content of air may be as high as 5 percent.
+\n
+\nThe gaseous air pollutants of primary concern in urban settings include sulfur dioxide, nitrogen dioxide, and carbon monoxide; these are emitted directly into the air from fossil fuels such as fuel oil, gasoline, and natural gas that are burned in power plants, automobiles, and other combustion sources. Ozone (a key component of smog) is also a gaseous pollutant; it forms in the atmosphere via complex chemical reactions occurring between nitrogen dioxide and various volatile organic compounds (e.g., gasoline vapours).
+\n
+Airborne suspensions of extremely small solid or liquid particles called “particulates” (e.g., soot, dust, smokes, fumes, mists), especially those less than 10 micrometres (μm; millionths of a metre) in size, are significant air pollutants because of their very harmful effects on human health. They are emitted by various industrial processes, coal- or oil-burning power plants, residential heating systems, and automobiles. Lead fumes (airborne particulates less than 0.5 μm in size) are particularly toxic and are an important pollutant of many diesel fuels."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/air_pollution_reference_table" />
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Except for lead, criteria pollutants are emitted in industrialized countries at very high rates, typically measured in millions of tons per year. All except ozone are discharged directly into the atmosphere from a wide variety of sources. They are regulated primarily by establishing ambient air quality standards, which are maximum acceptable concentrations of each criteria pollutant in the atmosphere, regardless of its origin. The six criteria pollutants are described in turn below."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#11102f" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(ii) Fine particulates"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Very small fragments of solid materials or liquid droplets suspended in air are called particulates. Except for airborne lead, which is treated as a separate category, they are characterized on the basis of size and phase (i.e., solid or liquid) rather than by chemical composition. For example, solid particulates between roughly 1 and 100 μm in diameter are called dust particles, whereas airborne solids less than 1 μm in diameter are called fumes.
+\n
+The particulates of most concern with regard to their effects on human health are solids less than 10 μm in diameter, because they can be inhaled deep into the lungs and become trapped in the lower respiratory system. Certain particulates, such as asbestos fibres, are known carcinogens (cancer-causing agents), and many carbonaceous particulates—e.g., soot—are suspected of being carcinogenic. Major sources of particulate emissions include fossil-fuel power plants, manufacturing processes, fossil-fuel residential heating systems, and gasoline-powered vehicles."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Carbon monoxide"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Carbon monoxide is an odourless, invisible gas formed as a result of incomplete combustion. It is the most abundant of the criteria pollutants. Gasoline-powered highway vehicles are the primary source, although residential heating systems and certain industrial processes also emit significant amounts of this gas. Power plants emit relatively little carbon monoxide because they are carefully designed and operated to maximize combustion efficiency. Exposure to carbon monoxide can be acutely harmful since it readily displaces oxygen in the bloodstream, leading to asphyxiation at high enough concentrations and exposure times."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/automobileemmission" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Automobile Emissions - Air pollution from vehicle tailpipes. A number of criteria pollutants, including carbon monoxide and nitrogen dioxide, are emitted by gasoline and diesel-powered vehicles." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Sulfur dioxide"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="A colourless gas with a sharp, choking odour, sulfur dioxide is formed during the combustion of coal or oil that contains sulfur as an impurity. Most sulfur dioxide emissions come from power-generating plants; very little comes from mobile sources. This pungent gas can cause eye and throat irritation and harm lung tissue when inhaled.
+\n
+Sulfur dioxide also reacts with oxygen and water vapour in the air, forming a mist of sulfuric acid that reaches the ground as a component of acid rain. Acid rain is believed to have harmed or destroyed fish and plant life in many thousands of lakes and streams in parts of Europe, the northeastern United States, southeastern Canada, and parts of China. It also causes corrosion of metals and deterioration of the exposed surfaces of buildings and public monuments."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/sulphuricacid" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Branches from a tree in Germany's Black Forest show needle loss and yellowed boughs caused by acid rain."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Nitrogen dioxide"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Of the several forms of nitrogen oxides, nitrogen dioxide—a pungent, irritating gas—is of most concern. It is known to cause pulmonary edema, an accumulation of excessive fluid in the lungs. Nitrogen dioxide also reacts in the atmosphere to form nitric acid, contributing to the problem of acid rain. In addition, nitrogen dioxide plays a role in the formation of photochemical smog, a reddish brown haze that often is seen in many urban areas and that is created by sunlight-promoted reactions in the lower atmosphere."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/nitrogendioxide" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="U.S. SO2 and NOx emissions, 2008."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Nitrogen oxides are formed when combustion temperatures are high enough to cause molecular nitrogen in the air to react with oxygen. Stationary sources such as coal-burning power plants are major contributors of this pollutant, although gasoline engines and other mobile sources are also significant."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Ozone"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="A key component of photochemical smog, ozone is formed by a complex reaction between nitrogen dioxide and hydrocarbons in the presence of sunlight. It is considered to be a criteria pollutant in the troposphere—the lowermost layer of the atmosphere—but not in the upper atmosphere, where it occurs naturally and serves to block harmful ultraviolet rays from the Sun. Because nitrogen dioxide and hydrocarbons are emitted in significant quantities by motor vehicles, photochemical smog is common in cities such as Los Angeles, where sunshine is ample and highway traffic is heavy. Certain geographic features, such as mountains that impede air movement, and weather conditions, such as temperature inversions in the troposphere, contribute to the trapping of air pollutants and the formation of photochemical smog."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ozone_hole" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depletion of Ozone Layer"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Lead"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Inhaled lead particulates in the form of fumes and dusts are particularly harmful to children, in whom even slightly elevated levels of lead in the blood can cause learning disabilities, seizures, or even death (see lead poisoning). Sources of airborne lead particulates include oil refining, smelting, and other industrial activities. In the past, combustion of gasoline containing a lead-based antiknock additive called tetraethyl lead was a major source of lead particulates. In many countries there is now a complete ban on the use of lead in gasoline. In the United States, lead concentrations in outdoor air decreased more than 90 percent after the use of leaded gasoline was restricted in the mid-1970s and then completely banned in 1996."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Air toxics"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Hundreds of specific substances are considered hazardous when present in trace amounts in the air. These pollutants are called air toxics. Many of them cause genetic mutations or cancer; some cause other types of health problems, such as adverse effects on brain tissue or fetal development. Although the total emissions and the number of sources of air toxics are small compared with those for criteria pollutants, these pollutants can pose an immediate health risk to exposed individuals and can cause other environmental problems.
+\n
+Most air toxics are organic chemicals, comprising molecules that contain carbon, hydrogen, and other atoms. Many are volatile organic compounds (VOCs), organic compounds that readily evaporate. VOCs include pure hydrocarbons, partially oxidized hydrocarbons, and organic compounds containing chlorine, sulfur, or nitrogen. They are widely used as fuels (e.g., propane and gasoline), as paint thinners and solvents, and in the production of plastics. In addition to contributing to air toxicity and urban smog, some VOC emissions act as greenhouse gases and, in so doing, may be a cause of global warming. Some other air toxics are metals or compounds of metals—for example, mercury, arsenic, and cadmium.
+\n
+In many countries, standards have been set to control industrial emissions of several air toxics. The first hazardous air pollutants regulated in the United States (outside the workplace environment) were arsenic, asbestos, benzene, beryllium, coke oven emissions, mercury, radionuclides (radioactive isotopes), and vinyl chloride. In 1990 this short list was expanded to include 189 substances. By the end of the 1990s, specific emission control standards were required in the United States for “major sources”—those that release more than 10 tons per year of any of these materials or more than 25 tons per year of any combination of them. Important air toxics, their sources, and their environmental effects are summarized in the table."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/airtoxics" />
+                </HorizontalScrollView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/airpollutionsmokestacks" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Air Pollution from factory smokestacks."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:text="Greenhouse Gases"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Global warming is recognized by almost all atmospheric scientists as a significant environmental problem caused by an increase in levels of certain trace gases in the atmosphere since the beginning of the Industrial Revolution in the mid-18th century. These gases, collectively called greenhouse gases, include carbon dioxide, organic chemicals called chlorofluorocarbons (CFCs), methane, nitrous oxide, ozone, and many others. Carbon dioxide, although not the most potent of the greenhouse gases, is the most important because of the huge volumes emitted into the air by combustion of fossil fuels (e.g., gasoline, oil, coal)."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Carbon dioxide is considered a normal component of the atmosphere, and before the Industrial Revolution the average levels of this gas were about 280 parts per million (ppm). By the early 21st century, the levels of carbon dioxide reached 405 ppm, and they continue to increase at a rate of almost 3 ppm per year. Many scientists think that carbon dioxide should be regulated as a pollutant—a position taken by the EPA in 2009 in a ruling that such regulations could be promulgated. International cooperation and agreements, such as the Paris Agreement of 2015, would be necessary to reduce carbon dioxide emissions worldwide."
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/greenhouseeffect" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The greenhouse effect is a natural process that warms the Earth's surface. When the Sun's energy reaches the Earth's atmosphere, some of it is reflected back to space and the rest is absorbed and re-radiated by greenhouse gases."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
